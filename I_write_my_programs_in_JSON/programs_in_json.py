@@ -2,7 +2,7 @@ from re import split
 
 
 def sum_of_all_numbers():
-    file_name = 'test_data.txt'
+    file_name = 'skychallenge_programs_in_json_input.txt'
 
     with open(file_name, 'r') as file_with_data:
         file_content = file_with_data.read()
